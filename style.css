@@ -14,9 +14,11 @@ body{
 }
 /* .........Elements layout.......... */
 nav{
-    padding: 25px 30px;
+    padding: 25px 5px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 header{
     border-bottom: 7px solid #eee;
@@ -25,6 +27,7 @@ header{
 main{
     margin-top: 100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .left{
